@@ -60,6 +60,22 @@ body {
 	color: #38BB09;
 }
 
+.search {
+	font-family: 'ABeeZee';
+	width: 60%;
+	font-size:25px;
+	background-color:rgba(70, 153, 223, 0.1);
+	border-radius:10px;
+	display: flex; 
+	padding:20px;
+	text-align: center;
+}
+
+.location {
+	padding:10px;
+	width:20%;
+}
+
 button {
 	font-family: 'ABeeZee';
 	width: 60%;
@@ -67,3 +83,15 @@ button {
 	background-color:rgba(70, 153, 223, 0.1);
 	border-radius:10px; 
 }
+
+text {
+	width:90%;
+	background-color: white;
+	padding: 10px;
+}
+
+.font_25{
+	font-size:25px;
+}
+
+
