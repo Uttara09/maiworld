@@ -4,12 +4,8 @@ body {
 }
 
 div {
-	border:1px solid black;
+	/*border:1px solid black;*/
 	border-radius:10px; 
-}
-.main {
-	/*display: flex;*/
-	/*text-align: center;*/
 }
 
 .top_panel {
@@ -87,10 +83,6 @@ div {
 	width:20%;
 }
 
-.agenda {
-	display:flex;
-}
-
 button {
 	font-family: 'ABeeZee';
 	width: 100%;
@@ -119,25 +111,17 @@ text {
 	font-size:10px;
 }
 
-.agenda_item {
+.item {
 	font-family: 'ABeeZee';
 	font-size:35px;
 	background-color:rgba(70, 153, 223, 0.1);
-	/*display: flex;*/
-	/*height: 130px;*/
 	padding: 20px;
 }
 
-/*.agenda_side_panel {
-	height:85vh;
-	width:25%;
-}*/
-
-.agenda_main_panel {
+.main_panel {
 	width:50%;
 	height:100%;
 	margin: 0 auto;
-	/*background-color:rgba(70, 153, 223, 0.1);*/
 }
 
 img {
