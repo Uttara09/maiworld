@@ -23,7 +23,7 @@ div {
 }*/
 
 .main_screen {
-	height:85vh;
+	/*height:85vh;*/
 	width:60%;
 	background-color: #EBEBEB;
 	border-radius:15px; 
@@ -32,7 +32,7 @@ div {
 }
 
 .main_screen_bar {
-	height:85vh;
+	/*height:85vh;*/
 	width:100%;
 	color:black;
 	text-align: center;
@@ -67,6 +67,10 @@ div {
 	color: #38BB09;
 }
 
+.bg_white {
+	background-color: white;
+}
+
 .search {
 	font-family: 'ABeeZee';
 	width: 60%;
@@ -88,7 +92,8 @@ button {
 	width: 100%;
 	font-size:25px;
 	background-color:rgba(70, 153, 223, 0.1);
-	border-radius:10px; 
+	border-radius:10px;
+	height: 40px;
 }
 
 text {
@@ -111,6 +116,10 @@ text {
 	font-size:10px;
 }
 
+.font_20 {
+	font-size:20px;
+}
+
 .item {
 	font-family: 'ABeeZee';
 	font-size:35px;
@@ -120,8 +129,8 @@ text {
 
 .main_panel {
 	width:50%;
-	height:100%;
 	margin: 0 auto;
+	height: ;
 }
 
 img {
