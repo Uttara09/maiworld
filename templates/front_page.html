@@ -1,54 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../static/css/front_page.css">
-        <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
-    </head>
-    <body>
-        <div id="navigation" class="container">
-            <button id="back-button"><i class="fas fa-arrow-left fa-lg"></i></button>
-            <span>
-                Tweet
-            </span>
-        </div>
-      
-        <div id="tweet" class="container">
-            <article role="article" data-focusible="true" tabindex="0">
-              
-                <div class="tweet-head space-evenly">
-                    <div class="author-tag space-evenly">
-                        <img class="user-icon" src="img/voteorg.jpg">
-                        <div>
-                            <span class="profile-name">VOTE.org</span>
-                            <br>
-                            <span class="twitter-handle">@votedotorg</span>
-                        </div>
-                    </div>
-                    <button class="more-options-button">
-                      <i class="fas fa-ellipsis-h fa-lg"></i>
-                    </button>
-                </div>
-              
-                <div class="tweet-body">
-                    &#128140; Have questions about voting by mail?
-                    <br>
-                    <br>
-                    &#128499; Request your mail-in ballot and get both <a href="">#VoteReady</a>
-                    <img src="img/US_Election_2020_NVRD.png"> and <a href="">#MailReady</a> at <a href="http://Vote.org">http://Vote.org</a>!
-                </div>
-              
-                <div class="tweet-image-container">
-                </div>
-                <div class="tweet-timestamp">
-                </div>
-                <div class="tweet-discussion">
-                </div>
-                <div class="tweet-sharing">
-                </div>
-            </article>
-        </div>
-      
-        <div id="replies" class="container">
-        </div>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Mai Agendas</title>
+    <!-- To connect the css stle sheet -->
+    <link rel="stylesheet" href="../static/css/front_page.css">
+
+    <script src="https://kit.fontawesome.com/844fa76e70.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+</head>
+<body>
+		<div class="top_panel">
+			<div class="options">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+			<div class="globe_icon">
+				<i class="fas fa-globe-americas green-color"></i>
+			</div>
+			<div class="meta_world">
+				<i class="fas fa-toggle-on" style="color: #38BB09"></i>
+				<p>meta-world</p>
+			</div>
+		</div>
+		<div class="main">
+			<div class="side_panel"></div>
+			<div class="main_screen">
+				<div class="main_screen_bar">
+					<div class="agenda_side_panel"></div>
+					<div class="page_main_panel">   
+						<div style="text-align: center">
+							<div class="page_item">
+                                <div class="fill">
+                                    <img src="../static/images/map_snippet.png">
+                                    <div class="bottom-banner">
+                                        <span class="font_25" id="bottom">hotspots</span>
+                                        <i class="fa fa-fire-alt font_25 blue-color " aria-hidden="true"></i>
+                                    </div>
+                                </div>		
+							</div>
+
+							<br><br>
+							<div class="page_item_flex">
+                                <div class="agenda-block">
+                                    <i class="fa fa-calendar font_15" aria-hidden="true"></i>
+                                    <p class="font_25">m<span class="green-color">ai </span>agenda</p>
+                                    <p class="font_10">Custom daily travel plan, just for you</p>
+                                 
+                                </div>
+                                <br> 
+                                <div class="agenda_elt font_15">00:09:00 : Check out the Colloseum!</div>
+                                <div class="agenda_elt font_15">00:09:00 : breakfast at Il Gianfornaio</div>
+                                <div class="agenda_elt font_15"></div>
+                                
+        					
+							</div>
+                            <br><br>
+                            <div class="page_item">
+                                <div class="agenda-block">
+                                    <i class="fa fa-calendar font_15" aria-hidden="true"></i>
+                                    <p class="font_25">recs for m<span class="green-color">ai </span>trips...</p>                                 
+                                </div>
+								<p class="font_10">Search on Google Maps</p>
+							</div>
+						</div>
+					</div>
+					<div class="agenda_side_panel"></div>
+				</div>
+			</div>
+			<div class="side_panel"></div>
+		</div>
+        <div class="top_panel">
+				<p class="font_10">Swipe for language tools</p>
+		</div>
+</body>
 </html>

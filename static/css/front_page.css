@@ -1,133 +1,241 @@
-html {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-  }
-  
-  div {
-    min-width: 20px;
-    min-height: 30px;
-  }
-  
-  a {
-    color: rgb(27, 149, 224);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  button {
-    background-color: transparent;
-    border: none;
-    font-size: 15px;
-  }
-  
-  .space-evenly {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .container {
-    width: 568px;
-    min-height: 50px;
-    margin: 0px auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-width: 0px 1px 1px 1px;
-    border-color: rgb(230, 236, 240);
-    border-style: solid;
-  }
-  
-  .profile-name {
-    font-weight: bold;
-  }
-  
-  .twitter-handle {
-    color: rgb(101, 119, 134);
-    font-size: 15px;
-    line-height: 19px;
-  }
-  
-  .user-icon {
-    border: 1px solid lightgray;
-    border-radius: 50%;
-    width: 49px;
-    height: 49px;
-  }
-  
-  #navigation {
-    display: flex;
-    align-items: center;
-  /*  background-color: red;*/
-  }
-  
-  #navigation button {
-    color: rgb(29, 161, 242);
-  }
-  
-  #navigation span {
-    margin-left: 24px;
-    font-size: 19px;
-    font-weight: bold;
-  }
-  
-  #tweet {
-  /*  background-color: blue;*/
-  }
-  
-  .tweet-head {
-    margin-top: 10px;
-  /*  background-color: red;*/
-  }
-  
-  .tweet-head img {
-    margin-right: 10px;
-  }
-  
-  .tweet-head .author-tag {
-    display: flex;
-    align-items: center;
-  /*  background-color: purple;*/
-  }
-  
-  .tweet-body {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 23px;
-    font-weight: 400;
-    color: rgb(20, 23, 26);  /* text color */
-    line-height: 30px;
-    word-wrap: break-word;
-  /*  background-color: yellow;*/
-  }
-  
-  .tweet-body .emoji {
-    font-size: 30px;
-  }
-  
-  .tweet-body img {
-      margin-bottom: -4px;
-      width: 28px;
-      height: 28px;
-  }
-  
-  .tweet-image-container {
-    background-color: cyan;
-  }
-  
-  .tweet-timestamp {
-    background-color: gray;
-  }
-  
-  .tweet-discussion {
-    background-color: orange;
-  }
-  
-  .tweet-sharing {
+body {
+	font-family: 'ABeeZee';
+	border-radius:10px; 
+}
+
+div {
+	/*border:1px solid black;*/
+	border-radius:10px; 
+}
+.main {
+	display: flex;
+}
+
+.top_panel {
+	height:15vh;
+    width:100%;
     background-color: blue;
+    display: flex;
+    font-size:30px;
+}
+
+.side_panel {
+	height:85vh;
+	width:20%;
+	/*background-color: red;*/
+}
+.main_screen {
+	height:85vh;
+	width:60%;
+	background-color: #EBEBEB;
+	border-radius:15px; 
+}
+
+.main_screen_bar {
+	height:auto;
+	width:100%;
+	color:black;
+	text-align: center;
+	display: flex; 
+	flex-direction: row; 
+	background-color: #EBEBEB;
+}
+
+.options {
+	padding:10px;
+	text-align:left;
+	width:10%;
+	height:100vh;
+}
+
+.globe_icon {
+	padding:10px;
+	text-align:center;
+	width:80%;
+	height:100vh;
+}
+
+.meta_world {
+	padding:10px;
+	text-align:right;
+	width:10%;
+	height:100vh;
+	font-size:15px;
+
+}
+
+.green-color {
+	color: #38BB09;
+}
+
+.search {
+	font-family: 'ABeeZee';
+	width: 60%;
+	font-size:25px;
+	background-color:rgba(70, 153, 223, 0.1);
+	border-radius:10px;
+	display: flex; 
+	padding:20px;
+	text-align: center;
+}
+
+.location {
+	padding:10px;
+	width:20%;
+}
+
+.agenda {
+	display:flex;
+}
+
+button {
+	font-family: 'ABeeZee';
+	width: 100%;
+	font-size:25px;
+	background-color:rgba(70, 153, 223, 0.1);
+	border-radius:10px; 
+}
+
+text {
+	width:90%;
+	background-color: white;
+	padding: 10px;
+	border-radius:10px; 
+
+}
+
+.font_25 {
+	font-size:25px;
+}
+
+.font_15 {
+	font-size:15px;
+}
+
+.font_10 {
+	font-size:10px;
+}
+
+.agenda_item {
+	font-family: 'ABeeZee';
+	font-size:35px;
+	background-color:rgba(70, 153, 223, 0.1);
+	/*display: flex;*/
+	/*height: 130px;*/
+	padding: 20px;
+}
+
+.agenda_side_panel {
+	/*height:85vh;*/
+	width:25%;
+}
+
+.agenda_main_panel {
+	width:50%;
+	height:100%;
+	/*background-color:rgba(70, 153, 223, 0.1);*/
+}
+
+img {
+	height:60%;
+	border-radius:10px; 
+}
+
+
+/*Valentine addition*/
+
+.page_main_panel {
+	width:100%;
+	height:100%;
+	/*display: flex;*/
+	
+	background-color: red;
+	/*background-color:rgba(70, 153, 223, 0.1);*/
+}
+.page_item {
+	font-family: 'ABeeZee';
+	font-size:35px;
+	/*background-color:rgba(70, 153, 223, 0.1); */
+	background-color:pink;
+
+	/*display: flex;*/
+	/*height: 130px;*/
+	padding: 20px;
+}
+
+.fill {
+    position: relative;
+	min-width: 100px;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+	/*background-color: blue;*/
+	border-width: 0px 1px 1px 1px;
+	border-color: rgb(230, 236, 240);
+	border-style: solid;
+	overflow: hidden;
+}
+
+/* .fill {
+    display: flex;
+	min-width: 100px;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+	background-color: blue;
+    overflow: hidden
+} */
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.bottom-banner {
+	opacity:50%;
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	bottom: 3.5px;
+	padding:10px;
+	text-align:left;
+	font-weight: bold;
+	letter-spacing: .5px;
+	background-color: yellow;
+	align-items: flex-end;
   }
-  
-  #replies {
-    background-color: purple;
-  }
-  
+
+
+
+.blue-color {
+	color: blue;
+}
+
+
+.page_item_flex {
+	font-family: 'ABeeZee';
+	font-size:35px;
+	background-color:rgba(70, 153, 223, 0.1);
+	display: flex;
+	/*height: 130px;*/
+	padding: 20px;
+	flex-direction: column;
+}
+
+
+.agenda_block {
+	background-color:green;
+
+}
+
+.agenda_elt {
+	height: 50px;
+    width: 100%;
+	background-color:green;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items:center;
+
+}
