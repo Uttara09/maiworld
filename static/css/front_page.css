@@ -14,7 +14,6 @@ div {
 .top_panel {
 	height:15vh;
     width:100%;
-    background-color: blue;
     display: flex;
     font-size:30px;
 }
@@ -27,7 +26,8 @@ div {
 .main_screen {
 	height:85vh;
 	width:60%;
-	background-color: #EBEBEB;
+  background-color: white;
+	/*background-color: #EBEBEB;*/
 	border-radius:15px; 
 }
 
@@ -38,7 +38,7 @@ div {
 	text-align: center;
 	display: flex; 
 	flex-direction: row; 
-	background-color: #EBEBEB;
+	/*background-color: #EBEBEB;*/
 }
 
 .options {
@@ -72,7 +72,7 @@ div {
 	font-family: 'ABeeZee';
 	width: 60%;
 	font-size:25px;
-	background-color:rgba(70, 153, 223, 0.1);
+	background-color:#EBEBEB;
 	border-radius:10px;
 	display: flex; 
 	padding:20px;
@@ -92,7 +92,7 @@ button {
 	font-family: 'ABeeZee';
 	width: 100%;
 	font-size:25px;
-	background-color:rgba(70, 153, 223, 0.1);
+	background-color:#EBEBEB;
 	border-radius:10px; 
 }
 
@@ -119,9 +119,8 @@ text {
 .agenda_item {
 	font-family: 'ABeeZee';
 	font-size:35px;
-	background-color:rgba(70, 153, 223, 0.1);
-	/*display: flex;*/
-	/*height: 130px;*/
+	background-color:#EBEBEB;
+
 	padding: 20px;
 }
 
@@ -147,44 +146,28 @@ img {
 .page_main_panel {
 	width:100%;
 	height:100%;
-	/*display: flex;*/
-	
-	background-color: red;
-	/*background-color:rgba(70, 153, 223, 0.1);*/
 }
 .page_item {
 	font-family: 'ABeeZee';
 	font-size:35px;
-	/*background-color:rgba(70, 153, 223, 0.1); */
-	background-color:pink;
-
-	/*display: flex;*/
-	/*height: 130px;*/
+	background-color:#EBEBEB; 
 	padding: 20px;
 }
 
 .fill {
-    position: relative;
-	min-width: 100px;
-    min-height: 100px;
-    justify-content: center;
-    align-items: center;
-	/*background-color: blue;*/
-	border-width: 0px 1px 1px 1px;
-	border-color: rgb(230, 236, 240);
-	border-style: solid;
-	overflow: hidden;
+  position: relative;
+  min-width: 100px;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+/*background-color: blue;*/
+  border-width: 0px 1px 1px 1px;
+  border-color: rgb(230, 236, 240);
+  border-style: solid;
+  overflow: hidden;
 }
 
-/* .fill {
-    display: flex;
-	min-width: 100px;
-    min-height: 100%;
-    justify-content: center;
-    align-items: center;
-	background-color: blue;
-    overflow: hidden
-} */
+
 .fill img {
     flex-shrink: 0;
     min-width: 100%;
@@ -202,7 +185,7 @@ img {
 	text-align:left;
 	font-weight: bold;
 	letter-spacing: .5px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	align-items: flex-end;
   }
 
@@ -216,7 +199,7 @@ img {
 .page_item_flex {
 	font-family: 'ABeeZee';
 	font-size:35px;
-	background-color:rgba(70, 153, 223, 0.1);
+	background-color:#EBEBEB;
 	display: flex;
 	/*height: 130px;*/
 	padding: 20px;
@@ -225,17 +208,16 @@ img {
 
 
 .agenda_block {
-	background-color:green;
-
 }
 
 .agenda_elt {
 	height: 50px;
-    width: 100%;
-	background-color:green;
+  width: 100%;
+	background-color:rgba(242, 242, 242, 0.8);
 	margin-top: 5px;
 	margin-bottom: 5px;
 	display: flex;
 	align-items:center;
 
 }
+
