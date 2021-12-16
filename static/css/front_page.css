@@ -4,7 +4,6 @@ body {
 }
 
 div {
-	/*border:1px solid black;*/
 	border-radius:10px; 
 }
 .main {
@@ -116,25 +115,6 @@ text {
 	font-size:10px;
 }
 
-.agenda_item {
-	font-family: 'ABeeZee';
-	font-size:35px;
-	background-color:#EBEBEB;
-
-	padding: 20px;
-}
-
-.agenda_side_panel {
-	/*height:85vh;*/
-	width:25%;
-}
-
-.agenda_main_panel {
-	width:50%;
-	height:100%;
-	/*background-color:rgba(70, 153, 223, 0.1);*/
-}
-
 img {
 	height:60%;
 	border-radius:10px; 
@@ -143,7 +123,7 @@ img {
 
 /*Valentine addition*/
 
-.page_main_panel {
+.main_panel {
 	width:100%;
 	height:100%;
 }
@@ -157,13 +137,14 @@ img {
 .fill {
   position: relative;
   min-width: 100px;
+  opacity:100%;
   min-height: 100px;
   justify-content: center;
   align-items: center;
 /*background-color: blue;*/
-  border-width: 0px 1px 1px 1px;
-  border-color: rgb(230, 236, 240);
-  border-style: solid;
+  /*border-width: 1px 1px 1px 1px;
+  border-color: black;
+  border-style: solid;*/
   overflow: hidden;
 }
 
@@ -185,7 +166,7 @@ img {
 	text-align:left;
 	font-weight: bold;
 	letter-spacing: .5px;
-	/*background-color: yellow;*/
+	background-color: #92B2CF;
 	align-items: flex-end;
   }
 
